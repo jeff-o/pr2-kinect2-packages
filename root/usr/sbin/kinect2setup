@@ -38,7 +38,7 @@ fi
 
 # Make UDEV rules for Kinect
 cd
-sudo cp libfreenect2/rules/90-kinect2.rules /etc/udev/rules.d/
+sudo cp libfreenect2/platform/linux/udev/90-kinect2.rules /etc/udev/rules.d/
 
 # Install Iai_kinect2
 if [ ! -d "kinect_ws" ];
